@@ -1,7 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+  const rumah = [
+    {
+      nama: 'Salman',
+      alamat: 'cigugur',
+    },
+    {
+      nama: 'Salman2',
+      alamat: 'cigugur2',
+    },
+    {
+      nama: 'Salman3',
+      alamat: 'cigugur3',
+    },
+    {
+      nama: 'Salman4',
+      alamat: 'cigugur3',
+    }
+  ];
+  console.log('test', rumah.map((rumah) => rumah));
   return (
     <div className="App">
       <header className="App-header">
